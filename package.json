@@ -1,0 +1,37 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "node application for rest-api",
+  "main": "server.js",
+  "engines": {
+    "node": "14.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon NODE_ENV=production MONGO_ATLAS_USER=admin MONGO_ATLAS_PW=ReadersChoice2022 JWT_KEY=secret node server.js",
+    "start:dev": "nodemon server.js"
+  },
+  "author": "Nirav",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^5.1.3",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.10.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.11",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "stripe": "^8.215.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

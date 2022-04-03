@@ -1,0 +1,7 @@
+{
+    "env": {
+        "MONGO_ATLAS_PW": "ReadersChoice2022",
+        "MONGO_ATLAS_USER": "admin",
+        "JWT_KEY": "secret"
+    }
+}
