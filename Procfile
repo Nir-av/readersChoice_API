@@ -1,1 +1,1 @@
-web: node server.js
+web: NODE_ENV=production MONGO_ATLAS_USER=admin MONGO_ATLAS_PW=ReadersChoice2022 JWT_KEY=secret node server.js
